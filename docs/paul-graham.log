@@ -25822,3 +25822,105 @@ Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (
 Fetch failed from https://rsshub.app/paulgraham/articles
 append_entries: 0
 error when rendering xml, skip docs/paul-graham
+------------------------------------------------------
+Started: 2024-10-17 14:08:36.465798
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/paulgraham/articles
+append_entries: 0
+error when rendering xml, skip docs/paul-graham
+------------------------------------------------------
+Started: 2024-10-17 16:08:41.252971
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/paulgraham/articles
+append_entries: 0
+error when rendering xml, skip docs/paul-graham
+------------------------------------------------------
+Started: 2024-10-17 18:09:08.764615
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/paulgraham/articles
+append_entries: 0
+error when rendering xml, skip docs/paul-graham
+------------------------------------------------------
+Started: 2024-10-17 20:08:24.854582
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/paulgraham/articles
+append_entries: 0
+error when rendering xml, skip docs/paul-graham
+------------------------------------------------------
+Started: 2024-10-17 22:08:32.123171
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/paulgraham/articles
+append_entries: 0
+error when rendering xml, skip docs/paul-graham
+------------------------------------------------------
+Started: 2024-10-18 00:18:04.106297
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/paulgraham/articles
+append_entries: 0
+error when rendering xml, skip docs/paul-graham
+------------------------------------------------------
+Started: 2024-10-18 02:31:41.704261
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/paulgraham/articles
+append_entries: 0
+error when rendering xml, skip docs/paul-graham
+------------------------------------------------------
+Started: 2024-10-18 04:09:39.270966
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/paulgraham/articles
+append_entries: 0
+error when rendering xml, skip docs/paul-graham
+------------------------------------------------------
+Started: 2024-10-18 06:09:35.958208
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+append_entries: 0
+Finish: 2024-10-18 06:09:44.956752
+------------------------------------------------------
+Started: 2024-10-18 08:08:21.176163
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/paulgraham/articles
+append_entries: 0
+error when rendering xml, skip docs/paul-graham
+------------------------------------------------------
+Started: 2024-10-18 10:09:07.097860
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/paulgraham/articles
+append_entries: 0
+error when rendering xml, skip docs/paul-graham
+------------------------------------------------------
+Started: 2024-10-18 12:10:14.901070
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/paulgraham/articles
+append_entries: 0
+error when rendering xml, skip docs/paul-graham
+------------------------------------------------------
+Started: 2024-10-18 14:08:16.518652
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/paulgraham/articles
+append_entries: 0
+error when rendering xml, skip docs/paul-graham
