@@ -6,6 +6,51 @@
 
 
 <item>
+<title>Mark One Enigma Edition Pen Review</title>
+<link>https://rknight.me/blog/mark-one-enigma-edition-pen-review/</link>
+<guid>https://rknight.me/blog/mark-one-enigma-edition-pen-review/</guid>
+<content:encoded><![CDATA[
+<p>During September I donated to Enigma Stationery's campaign and was entered into a raffle to win the <a href="https://enigmastationery.com/shop/p/mark-one-enigma-edition">Mark One Enigma Edition</a> and...I actually won! I've never owned a fancy pen<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>, especially not one this pretty. I don't even write with pen and paper all that much. None of my notebooks have good paper, or quality covers, or fold out flat but I'm gunna review it anyway.</p>
+<p><img alt="The Mark One Enigma edition" src="https://cdn.rknight.me/site/enigma-mark-one.jpg" /></p>
+<p>The Mark One is a pen by <a href="https://www.studioneat.com/products/markone">Studio Neat</a> who make lots of lovely things. The Enigma edition features &quot;<em>a three-layer exterior coating with sparkling teal on a black background</em>&quot;. It feels great in the hand and the clicking mechanism is very satisfying. For ink it takes a Schmidt capless refill which, to my untrained eye, appears to be some kind of ink container. The one that came with mine definitely has ink. I made this natty diagram to help explain:</p>
+<p><img alt="The Mark One pen on dotgrid paper with arrows showing where the clicky bit is and where the ink comes out" src="https://cdn.rknight.me/site/enigma-mark-one-diagram.jpg" /></p>
+<p>When I started writing this post I wanted to parody a pen review like the ones Brad does over on <a href="https://www.penaddict.com/blog/2018/3/26/mark-one-pen-review">The Pen Addict</a> but I truly know so little about pens that I can't do it. Anyway, it is a lovely pen and I'm now finding myself looking at decent notebooks, the <a href="https://www.studioneat.com/products/pentray">mark one pen tray</a>, and <em>other nice pens</em>.</p>
+<blockquote>
+<p>Honey, he's teasing you. Nobody has two <s>television sets</s> nice pens.</p>
+</blockquote>
+<p><img alt="The Mark One pen along with some other pens" src="https://cdn.rknight.me/site/enigma-mark-one-other-pens.jpg" /></p>
+<p><em>Top to bottom: The Mark One, then some other pens I had knocking about.</em></p>
+<p><img alt="Writing sample on dotgrid paper with the Mark One" src="https://cdn.rknight.me/site/enigma-mark-one-writing-sample.jpg" /></p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li class="footnote-item" id="fn1"><p>Not even a Parker pen which, when I was at school, was considered the coolest pen one could possibly own <a class="footnote-backref" href="#fnref1">&#10558;</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+<pubDate>2024-10-24T12:31:03Z</pubDate>
+</item>
+<item>
+<title>Obsidian Tasks and Godspeed</title>
+<link>https://rknight.me/blog/obsidian-tasks-and-godspeed/</link>
+<guid>https://rknight.me/blog/obsidian-tasks-and-godspeed/</guid>
+<content:encoded><![CDATA[
+<p>Two weeks ago <a href="https://social.lol/@robb/113288632240605303">I tooted</a>:</p>
+<blockquote>
+<p>Lord help me I'm back on Obsidian Tasks again</p>
+</blockquote>
+<p>I came up with a nice solution for what I wanted. Show the first todo item in each of my project files using Obsidian Tasks query language:</p>
+<pre class="language-js"><code class="language-js">path includes projects<br />group by <span class="token keyword">function</span> task<span class="token punctuation">.</span>file<span class="token punctuation">.</span>path<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token string">'.md'</span><span class="token punctuation">,</span> <span class="token string">''</span><span class="token punctuation">)</span><br />limit groups <span class="token number">1</span><br />not done</code></pre>
+<p><img alt="My todo list as rendered by Obsidian Tasks" src="https://cdn.rknight.me/site/project-tasks.jpg" /></p>
+<p>I had to add some rules to the css to hide the note titles which are shown when you use grouping:</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.tasks-group-heading</span> <span class="token punctuation">{</span><br />    <span class="token property">display</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span><br /><span class="token punctuation">}</span><br /><br /><span class="token selector">ul.plugin-tasks-query-result</span> <span class="token punctuation">{</span><br />    <span class="token property">margin-bottom</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span><br />    <span class="token property">margin-top</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span><br /><span class="token punctuation">}</span><br /><br /><span class="token selector">div.task-count</span> <span class="token punctuation">{</span><br />    <span class="token property">margin-top</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span><br /><span class="token punctuation">}</span></code></pre>
+<p>Turns out, this <em>works</em> but just it doesn't work <em>for me</em>. So I deleted it all (after noting the config down because Obsidian Tasks can be complicated).</p>
+<p><a href="https://godspeedapp.com">Godspeed</a> is my best friend now. I won't attempt to go into everything Godspeed does but the UI is simple and works for my brain. Their big selling point is everything can be done with the keyboard which I like. It's also one of the reasons I signed up to <a href="https://go.setapp.com/invite/0jsvfx75">Setapp</a> (expect a post about this soon). If you want to know more <a href="https://www.youtube.com/watch?v=p8Ak_OB-oco">Matt has a great video</a> about Godspeed which is how I found out about it in the first place.</p>
+]]></content:encoded>
+<pubDate>2024-10-23T20:16:52Z</pubDate>
+</item>
+<item>
 <title>Moving my DNS Records with DNSControl</title>
 <link>https://rknight.me/blog/moving-my-dns-records-with-dnscontrol/</link>
 <guid>https://rknight.me/blog/moving-my-dns-records-with-dnscontrol/</guid>
